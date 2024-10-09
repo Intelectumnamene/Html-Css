@@ -1,0 +1,30 @@
+
+.artigo{
+    width: 1280px;
+    margin: 40px auto;
+    height: auto;
+    text-align: center; 
+    background-color: aqua;
+    padding: 40px;
+}
+
+.artigo h1{
+    color: #000;
+    font-size: 23px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight:normal
+}
+
+.artigo p{
+
+    color: #000;
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style:normal;
+    font-weight: bold;
+    line-height: 40px;
+    margin-top: 12px;
+    text-align: left;
+    
+}

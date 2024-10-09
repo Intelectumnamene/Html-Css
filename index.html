@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style2.css">
+        <title>Criando Menu</title>
+        <style>
+            /* CSS Profissional */
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+
+            body {
+                font-family: Arial, sans-serif;
+                background-color: #f4f4f4;
+                color: #333;
+            }
+
+            .Menu {
+                display: flex;
+                justify-content: center; /* Centraliza os links horizontalmente */
+                background-color: #222; /* Cor de fundo do menu */
+                padding: 20px 0;
+            }
+
+            .Menu a {
+                color: white; /* Cor do texto dos links */
+                text-decoration: none; /* Remove sublinhado */
+                margin: 0 15px; /* Espaçamento entre os links */
+                font-size: 18px;
+                transition: color 0.3s ease; /* Animação de transição */
+                padding: 5px 10px;
+            }
+
+            .Menu a:hover {
+                color: #f0a500; /* Cor ao passar o mouse */
+                border-bottom: 2px solid #f0a500; /* Sublinhado ao hover */
+            }
+
+            .Menu a.contato {
+                color: #f0a500; /* Cor diferente para o link "Contato" */
+                font-weight: bold;
+            }
+
+            /* Estilo para telas menores (responsividade) */
+            @media (max-width: 768px) {
+                .Menu {
+                    flex-direction: column;
+                    align-items: center;
+                }
+
+                .Menu a {
+                    margin: 10px 0;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="Menu">
+            <a href="#">Home</a>
+            <a href="#">Produtos</a>
+            <a class="contato" href="#">Contato</a>
+            <a href="#">Galeria</a>
+            <a href="#">Sobre</a>
+        </div>
+    </body>
+</html>

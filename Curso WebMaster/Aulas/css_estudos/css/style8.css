@@ -1,0 +1,62 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo para o body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Fundo claro */
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    height: 100vh; /* Altura da janela */
+}
+
+/* Estilo para .um */
+.um {
+    background-color: #007acc; /* Fundo azul */
+    padding: 20px;
+    border-radius: 10px; /* Bordas arredondadas */
+    width: 80%; /* Largura ocupando 80% da tela */
+    max-width: 600px; /* Limite máximo de largura */
+    display: flex;
+    justify-content: space-between; /* Espaça o conteúdo */
+    align-items: center;
+}
+
+/* Estilo para .dois */
+.dois {
+    background-color: #ffcc00; /* Fundo amarelo */
+    width: 40%; /* Largura relativa ao container .um */
+    height: 200px; /* Altura fixa */
+    border-radius: 10px; /* Bordas arredondadas */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #333;
+}
+
+/* Estilo para .tres */
+.tres {
+    background-color: #66cc66; /* Fundo verde */
+    width: 55%; /* Largura relativa ao container .um */
+    height: 200px; /* Altura fixa */
+    border-radius: 10px; /* Bordas arredondadas */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Estilo para .quatro */
+.quatro {
+    background-color: #ff6666; /* Fundo vermelho */
+    width: 80%; /* Largura relativa ao container .tres */
+    height: 100px; /* Altura fixa */
+    border-radius: 10px; /* Bordas arredondadas */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

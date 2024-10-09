@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+/*[] pega todos os links ou outro elemento especificado entre colchetes*/
+
+/*a[href = "https://www.lipsum.com/"]{
+    background-color:aquamarine
+} se quiser um elemento específico dentro da tag especificada*/
+
+/*A diferença entre os dois seletores que você mencionou está na 
+forma como eles selecionam os atributos dos elementos:
+
+1. **`a[attr~="google"]`**:
+   - Este seletor aplica o estilo ao link (`<a>`) cujo atributo `attr` 
+   contém a palavra "google" como uma das palavras separadas por espaços. 
+   O til `~=` é o operador de seleção que indica que o valor do atributo 
+   deve conter a palavra exata (não uma parte dela) em uma lista de palavras 
+   separadas por espaço.
+   - Exemplo:
+     ```html
+     <a attr="google search">Link 1</a> <!-- Irá ser selecionado -->
+     <a attr="bing google">Link 2</a> <!-- Irá ser selecionado -->
+     <a attr="google.com">Link 3</a> <!-- Não será selecionado -->
+     ```
+
+2. **`a[href*="google"]`**:
+   - Este seletor aplica o estilo ao link (`<a>`) cujo atributo `href` 
+   contém a string "google" em qualquer posição. 
+   O asterisco `*=` é o operador de seleção que indica que 
+   o valor do atributo deve conter a sequência de caracteres fornecida 
+   (não importa onde ela está no valor do atributo).
+   - Exemplo:
+     ```html
+     <a href="https://www.google.com">Link 1</a> <!-- Irá ser selecionado -->
+     <a href="https://googlemail.com">Link 2</a> <!-- Irá ser selecionado -->
+     <a href="https://bing.com">Link 3</a> <!-- Não será selecionado -->
+     ```
+
+### Resumindo:
+- **`[attr~="valor"]`**: Seleciona elementos cujo atributo contém 
+                         a palavra exata "valor" entre várias palavras.
+
+- **`[attr*="valor"]`**: Seleciona elementos cujo atributo contém 
+                         a sequência "valor" em qualquer parte.*/
+
+/*[attribute|="value"]: Seleciona elementos cujo valor de attribute 
+é exatamente igual a "value" ou começa com "value-".
+
+a[lang|="en"] {
+    color: blue;
+}
+
+Neste caso, o estilo será aplicado a elementos <a> 
+cujo atributo lang seja exatamente igual a "en" 
+ou comece com "en-", como "en-US" ou "en-GB", 
+mas não será aplicado ao valor "fr".
+
+a[attr^="google"] {
+    background-color: red;
+}
+[attr^="google"]: Este seletor aplica o estilo a qualquer <a>
+ cujo atributo attr comece com a string "google".
+
+a[attr$="google"]{
+            background-color:yellow;
+}
+[attr$="google"]: Este seletor aplica o estilo cujo o atributo termina com 
+a palavra especifica.
+*/
+a[href] {
+    background-color: burlywood;
+
+}
+
+input[type=text]{
+    color: red;
+}
+
+input[type=submit]{
+    color: blueviolet;
+}
+
+.text[type=text]{
+    color: cadetblue;
+}

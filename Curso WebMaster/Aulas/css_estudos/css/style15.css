@@ -1,0 +1,32 @@
+* {
+    padding: 0; /* Remove o padding (espaçamento interno) padrão de todos os elementos */
+    margin: 0;  /* Remove a margem (espaçamento externo) padrão de todos os elementos */
+}
+
+html, body {
+    height: 100%; /* Define que os elementos 'html' e 'body' ocupem 100% da altura da janela do navegador */
+}
+
+.box {
+    width: 300px; /* Define a largura da div com classe 'box' ou 'box2' para 300 pixels */
+    margin: 0 auto; /* Centraliza horizontalmente as divs 'box' e 'box2' com margem automática nas laterais */
+    background-color: blanchedalmond; /* Define a cor de fundo como 'blanchedalmond' (um tom claro de amêndoa) */
+    overflow-x: auto; /* Ativa a barra de rolagem horizontal se o conteúdo dentro da div for maior que a largura definida */
+}
+
+.box p {
+    width: 500px; /* Define a largura dos parágrafos dentro da div 'box' para 500 pixels, forçando o uso de barra de rolagem */
+}
+
+.box2 {
+    width: 300px; /* Define a largura da div 'box2' para 300 pixels */
+    margin: 0 auto; /* Centraliza horizontalmente a div 'box2' */
+    background-color: blanchedalmond; /* Define a cor de fundo como 'blanchedalmond' */
+    overflow-x: auto; /* Ativa a barra de rolagem horizontal se o conteúdo dentro da div for maior que a largura */
+    margin-top: 20px; /* Adiciona uma margem de 20 pixels acima da div 'box2', criando um espaçamento entre 'box' e 'box2' */
+}
+
+.box2 p {
+    width: 500px; /* Define a largura dos parágrafos dentro da div 'box2' para 500 pixels, forçando o uso de barra de rolagem */
+}
+

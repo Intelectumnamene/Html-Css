@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+html,body{
+    height: 100%;
+}
+
+.teste,.teste1,.teste2{
+    width: 300px; 
+    height: 30px;
+    /*background-color:darkgray;*/
+    margin-top: 30px;
+    margin-left: 30px;
+    display: inline-block;
+
+}
+
+.teste1{
+   
+    background-color:rgb(28, 167, 86);
+   
+
+}
+
+.teste2{
+    
+    background-color:rgb(38, 72, 185);
+    
+}
+/*
+.teste:hover{
+    height: 900px;
+    background-color: blue;
+}
+
+.teste:hover, .teste1, .teste2{
+    vertical-align: top;
+
+}
+    */
+
+/* Muda a cor quando o mouse fica pressionado em cima do elemento. 
+Textearea, imput*/
+/*
+.teste:active{
+    background-color: black;
+}*/
+
+
+/*
+Serve para destacar a área quando clicamos.
+.teste:focus{
+    background-color: red;
+}
+
+.textearea1{
+    display: block;
+    width: 600px;
+    height: 400px;
+} */
+
+/*
+Não recomendado usar estes elementos no css pois com 
+alguns navegadores não fuincionam a mudança de cor do link quando clicado.
+
+.link1:link{
+    color: rgb(219, 35, 35);
+}
+
+.link1:visited{
+    color: blueviolet;
+}
+    */

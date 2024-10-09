@@ -1,0 +1,17 @@
+Para memorizar a **Estrutura do Documento HTML** de forma mnemônica, podemos criar uma frase simples que associe cada parte da estrutura a uma palavra-chave. Aqui está uma possível mnemônica:
+
+### Tags principais:
+1. **`<html>`** – Início do documento HTML.
+2. **`<head>`** – Metadados e links.
+3. **`<title>`** – Título da página.
+4. **`<body>`** – Conteúdo visível.
+
+### Mnemônica:
+**"Homens Hábeis Trabalham Bem"**.
+
+- **H**omem (HTML) – O início de tudo, a estrutura básica.
+- **H**ábeis (HEAD) – Contêm informações essenciais e instruções para o navegador.
+- **T**rabalham (TITLE) – Dão um nome ao que fazem, o título da página.
+- **B**em (BODY) – Tudo que aparece, o conteúdo visível.
+
+Essa frase ajuda a lembrar a ordem e a função das principais tags da estrutura de um documento HTML de forma simples e fácil.

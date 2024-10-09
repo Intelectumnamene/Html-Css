@@ -1,0 +1,11 @@
+O <i> é usado para texto em itálico e pode ser estilizado de várias maneiras, como sobrelinhas e cores diferentes.
+
+i {
+    font-style: italic; /* Estilo itálico */
+    color: purple; /* Cor do texto */
+    font-size: 16px; /* Tamanho da fonte */
+    font-weight: bold; /* Negrito */
+    text-decoration: overline; /* Sobrelinha */
+    background-color: beige; /* Fundo bege */
+    padding: 4px; /* Espaçamento interno */
+}

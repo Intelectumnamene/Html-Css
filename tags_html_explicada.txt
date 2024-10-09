@@ -1,0 +1,67 @@
+Para fazer um site completo com HTML, há uma série de tags essenciais que você pode utilizar. Elas cobrem a estrutura básica de um site, elementos de formatação e interatividade. Aqui estão as principais tags HTML organizadas por categoria:
+
+### 1. **Estrutura do Documento**
+- `<html>`: Define o início do documento HTML.
+- `<head>`: Contém metadados, links para estilos, scripts e o título da página.
+- `<title>`: Define o título da página exibido na aba do navegador.
+- `<body>`: Contém o conteúdo visível do site.
+
+### 2. **Cabeçalho e Navegação**
+- `<header>`: Define o cabeçalho da página ou de uma seção.
+- `<nav>`: Usado para agrupar links de navegação.
+- `<h1>` a `<h6>`: Cabeçalhos de diferentes níveis (h1 é o mais importante).
+- `<footer>`: Define o rodapé da página.
+
+### 3. **Texto e Parágrafos**
+- `<p>`: Define um parágrafo.
+- `<br>`: Insere uma quebra de linha.
+- `<hr>`: Insere uma linha horizontal (separador).
+- `<strong>`: Destaca o texto com negrito.
+- `<em>`: Destaca o texto em itálico.
+- `<span>`: Usado para aplicar estilos ou scripts a partes específicas de texto.
+
+### 4. **Imagens e Mídia**
+- `<img>`: Insere uma imagem.
+- `<video>`: Insere um vídeo.
+- `<audio>`: Insere um arquivo de áudio.
+- `<source>`: Define diferentes fontes de mídia para `<video>` ou `<audio>`.
+
+### 5. **Links e Botões**
+- `<a>`: Cria um link para outra página ou seção.
+- `<button>`: Define um botão clicável.
+
+### 6. **Listas**
+- `<ul>`: Define uma lista não ordenada (com marcadores).
+- `<ol>`: Define uma lista ordenada (com números).
+- `<li>`: Define um item de lista.
+
+### 7. **Tabelas**
+- `<table>`: Cria uma tabela.
+- `<tr>`: Define uma linha na tabela.
+- `<td>`: Define uma célula de dados.
+- `<th>`: Define uma célula de cabeçalho.
+- `<thead>`, `<tbody>`, `<tfoot>`: Agrupam o conteúdo da tabela.
+
+### 8. **Formulários e Entrada de Dados**
+- `<form>`: Define um formulário.
+- `<input>`: Cria vários tipos de campos de entrada, como texto, senha, checkbox, radio buttons, etc.
+- `<label>`: Associa um rótulo a um campo de formulário.
+- `<textarea>`: Define uma área de texto para múltiplas linhas.
+- `<select>`: Cria um menu suspenso.
+- `<option>`: Define opções em um menu suspenso.
+- `<button type="submit">`: Botão para enviar o formulário.
+
+### 9. **Elementos de Layout**
+- `<div>`: Cria uma divisão ou bloco, útil para organizar e estilizar seções.
+- `<section>`: Define uma seção temática no documento.
+- `<article>`: Representa um conteúdo independente e autossuficiente.
+- `<aside>`: Define um conteúdo lateral, como uma barra lateral.
+- `<main>`: Contém o conteúdo principal da página.
+
+### 10. **Outras Tags Úteis**
+- `<link>`: Usado para vincular arquivos externos, como folhas de estilo CSS.
+- `<meta>`: Contém metadados, como charset, viewport e descrições.
+- `<script>`: Insere ou linka scripts de JavaScript.
+- `<style>`: Define estilos CSS diretamente no documento.
+
+Essas tags formam a base para um site completo em HTML. Você pode combinar essas tags com CSS para estilização e JavaScript para interatividade.

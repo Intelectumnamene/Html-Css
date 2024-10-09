@@ -1,0 +1,137 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo geral da página */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #e0eafc, #cfdef3); /* Fundo gradiente */
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Estilizando o contêiner do menu */
+.Menu {
+    display: flex; /* Organiza os itens em linha */
+    gap: 20px; /* Espaçamento entre os links */
+    background: rgba(255, 255, 255, 0.8); /* Fundo com opacidade */
+    padding: 20px;
+    border-radius: 15px; /* Bordas arredondadas */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    backdrop-filter: blur(5px); /* Efeito de desfoque no fundo */
+    transition: transform 0.3s ease;
+}
+
+.Menu:hover {
+    transform: scale(1.05); /* Aumenta ligeiramente o tamanho ao passar o mouse */
+}
+
+/* Estilo para os links */
+.Menu > a {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    background-color: #3498db; /* Cor de fundo azul */
+    border: 2px solid transparent;
+    border-radius: 8px; /* Bordas arredondadas */
+    transition: all 0.3s ease;
+    text-transform: uppercase; /* Texto em maiúsculas */
+    letter-spacing: 2px; /* Espaçamento entre as letras */
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+/* Efeito ao passar o mouse */
+.Menu > a:hover {
+    color: #fff;
+    background-color: #1abc9c; /* Troca para verde */
+    border-color: #16a085; /* Cor da borda verde */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Adiciona uma sombra ao passar o mouse */
+}
+
+/* Efeito de transição por dentro do link */
+.Menu > a::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.3); /* Destaque transparente */
+    transition: left 0.3s ease;
+    z-index: -1;
+}
+
+.Menu > a:hover::before {
+    left: 0;
+}
+
+/* Diferenciar a classe 'contato' */
+.Menu > a.contato {
+    background-color: #e74c3c; /* Vermelho */
+    border-color: #c0392b;
+}
+
+.Menu > a.contato:hover {
+    background-color: #c0392b;
+    border-color: #e74c3c;
+}
+
+/* Animação nos links ao carregar */
+@keyframes slideIn {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.Menu > a {
+    animation: slideIn 0.5s ease forwards;
+}
+
+/* Diferenciar a animação de cada link */
+.Menu > a:nth-child(1) {
+    animation-delay: 0.1s;
+}
+
+.Menu > a:nth-child(2) {
+    animation-delay: 0.2s;
+}
+
+.Menu > a:nth-child(3) {
+    animation-delay: 0.3s;
+}
+
+.Menu > a:nth-child(4) {
+    animation-delay: 0.4s;
+}
+
+.Menu > a:nth-child(5) {
+    animation-delay: 0.5s;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .Menu {
+        flex-direction: column; /* Organiza os links verticalmente em telas menores */
+        align-items: center;
+    }
+
+    .Menu > a {
+        width: 100%;
+        text-align: center;
+    }
+}

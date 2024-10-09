@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+    <table align="center"  border="2"     class="table">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Nome</th>
+                <th>País</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td scope="row">1</td>
+                <td>Luiz</td>
+                <td>Brasil</td>
+            </tr>
+            <tr>
+                <td scope="row">2</td>
+                <td>Pedro</td>
+                <td>Brasil</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
+
+<!-- O que acontece com scope="row":
+Leitores de tela: Ao navegar por uma linha, o leitor de tela sabe que o valor de ID (1, 2, 3) é o cabeçalho ou identificador daquela linha.
+Acessibilidade: Isso ajuda a associar corretamente o dado da célula à linha em que ele está inserido, facilitando a compreensão para pessoas que utilizam leitores de tela.
+
+Em resumo, o atributo scope="row" melhora a semântica e a acessibilidade da tabela, tornando o site mais inclusivo e organizado. -->

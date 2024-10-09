@@ -1,0 +1,12 @@
+
+O <u> é usado para sublinhar texto e pode ter estilizações semelhantes, como cor e estilo de fonte.
+
+u {
+    text-decoration: underline; /* Sublinhado */
+    color: green; /* Cor do texto */
+    font-size: 18px; /* Tamanho da fonte */
+    font-style: italic; /* Estilo itálico */
+    text-transform: lowercase; /* Transforma o texto em minúsculas */
+    background-color: lightgray; /* Fundo cinza claro */
+    padding: 3px; /* Espaçamento interno */
+}

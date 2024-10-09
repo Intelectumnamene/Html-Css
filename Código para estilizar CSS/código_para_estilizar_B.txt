@@ -1,0 +1,13 @@
+
+O <b> é usado para negrito e pode ser estilizado com cor, fundo, bordas, etc.
+
+b {
+    font-weight: bold; /* Negrito */
+    color: blue; /* Cor do texto */
+    font-size: 20px; /* Tamanho da fonte */
+    text-transform: uppercase; /* Transforma o texto em maiúsculas */
+    background-color: yellow; /* Fundo amarelo */
+    padding: 5px; /* Espaçamento interno */
+    border: 1px solid red; /* Borda vermelha */
+    border-radius: 5px; /* Bordas arredondadas */
+}

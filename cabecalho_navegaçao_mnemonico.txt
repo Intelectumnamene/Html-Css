@@ -1,0 +1,17 @@
+Para a parte de **Cabeçalho e Navegação**, aqui está uma mnemônica que pode ajudar a lembrar das principais tags:
+
+### Tags principais:
+1. **`<header>`** – Cabeçalho da página.
+2. **`<nav>`** – Links de navegação.
+3. **`<h1>` a `<h6>`** – Cabeçalhos de diferentes níveis.
+4. **`<footer>`** – Rodapé da página.
+
+### Mnemônica:
+**"Heróis Navegam com Honra e Foco"**.
+
+- **H**eróis (**HEADER**) – Definem o início da página, o cabeçalho.
+- **N**avegam (**NAV**) – São responsáveis pela navegação.
+- **H**onra (**H1-H6**) – Representam a hierarquia dos títulos, do mais importante ao menos.
+- **F**oco (**FOOTER**) – Estão sempre no final, definindo o rodapé.
+
+Essa frase captura a essência do cabeçalho e da navegação, associando a hierarquia e a navegação com uma imagem mental fácil de lembrar.

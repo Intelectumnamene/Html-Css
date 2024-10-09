@@ -1,0 +1,141 @@
+O elemento `<ol>` define uma lista ordenada, onde os itens são numerados automaticamente. Assim como o `<ul>`, você pode personalizar a aparência da lista e dos itens usando CSS. Aqui estão algumas opções de estilização para o `<ol>`:
+
+### 1. **Estilização Básica**
+```css
+ol {
+    list-style-type: decimal; /* Números decimais padrão */
+    margin: 20px; /* Espaçamento externo */
+    padding: 10px; /* Espaçamento interno */
+    background-color: #f9f9f9; /* Cor de fundo */
+    border: 1px solid #ddd; /* Borda ao redor da lista */
+}
+```
+**Explicação**: Aplica uma estilização básica com números, margens e uma borda ao redor da lista.
+
+### 2. **Remover Números**
+```css
+ol {
+    list-style-type: none; /* Remove a numeração */
+    padding-left: 0; /* Remove o recuo padrão */
+}
+```
+**Explicação**: Remove a numeração dos itens da lista, fazendo com que pareçam uma lista não ordenada.
+
+### 3. **Alterar o Estilo de Numeração**
+```css
+ol {
+    list-style-type: upper-roman; /* Usa números romanos maiúsculos */
+}
+```
+**Explicação**: Substitui a numeração decimal padrão por números romanos maiúsculos. Outros valores possíveis incluem:
+- `decimal`: Números decimais (padrão)
+- `upper-roman`: Números romanos maiúsculos
+- `lower-roman`: Números romanos minúsculos
+- `upper-alpha`: Letras maiúsculas
+- `lower-alpha`: Letras minúsculas
+
+### 4. **Personalizar a Posição dos Números**
+```css
+ol {
+    list-style-position: inside; /* Números dentro da área de conteúdo */
+}
+```
+**Explicação**: Faz com que os números apareçam dentro da área de conteúdo dos itens, em vez de ficarem do lado de fora (que é o padrão).
+
+### 5. **Alterar Cor e Estilo dos Itens**
+```css
+ol {
+    color: #333; /* Cor do texto dos itens */
+    font-size: 18px; /* Tamanho da fonte */
+    font-family: Arial, sans-serif; /* Tipo de fonte */
+}
+
+ol li {
+    padding: 10px; /* Espaçamento interno dos itens */
+    margin-bottom: 5px; /* Espaçamento entre os itens */
+    background-color: #f0f0f0; /* Fundo cinza claro nos itens */
+    border-radius: 5px; /* Bordas arredondadas */
+}
+```
+**Explicação**: Estiliza a lista com fontes maiores e um fundo cinza claro para cada item, adicionando espaçamento e bordas arredondadas.
+
+### 6. **Adicionar Bordas e Fundo aos Itens**
+```css
+ol li {
+    border: 1px solid #ccc; /* Borda ao redor dos itens */
+    padding: 10px; /* Espaçamento interno dos itens */
+    background-color: #f5f5f5; /* Cor de fundo dos itens */
+}
+```
+**Explicação**: Adiciona uma borda e um fundo aos itens da lista, tornando-os mais destacados.
+
+### 7. **Estilo ao Passar o Mouse**
+```css
+ol li:hover {
+    background-color: #e6f7ff; /* Fundo azul claro ao passar o mouse */
+    cursor: pointer; /* Cursor muda para pointer */
+}
+```
+**Explicação**: Altera a cor de fundo e o cursor quando o mouse passa sobre um item da lista, tornando-o interativo.
+
+### 8. **Lista Ordenada Horizontal**
+```css
+ol {
+    list-style-type: decimal; /* Números decimais */
+    display: flex; /* Exibe os itens em linha */
+    gap: 20px; /* Espaçamento entre os itens */
+    padding: 0;
+    margin: 0;
+}
+
+ol li {
+    background-color: #007acc; /* Fundo azul dos itens */
+    color: white; /* Cor do texto branco */
+    padding: 10px; /* Espaçamento nos itens */
+    border-radius: 5px; /* Bordas arredondadas */
+}
+```
+**Explicação**: Usa `display: flex` para criar uma lista ordenada horizontal, com espaçamento entre os itens.
+
+### Exemplo Completo de Lista Ordenada
+Aqui está um exemplo completo de uma lista ordenada estilizada:
+
+```html
+<ol>
+    <li>Primeiro item</li>
+    <li>Segundo item</li>
+    <li>Terceiro item</li>
+</ol>
+```
+
+E o CSS correspondente:
+
+```css
+ol {
+    list-style-type: lower-alpha; /* Usa letras minúsculas como numeração */
+    padding-left: 20px; /* Espaçamento à esquerda */
+    background-color: #f0f0f0; /* Fundo da lista */
+    border: 1px solid #ccc; /* Borda ao redor da lista */
+    border-radius: 10px; /* Bordas arredondadas */
+    padding: 10px;
+    margin: 20px auto;
+    width: 300px;
+}
+
+ol li {
+    margin-bottom: 10px; /* Espaçamento entre os itens */
+    padding: 10px; /* Espaçamento interno dos itens */
+    background-color: #e0e0e0; /* Fundo cinza claro */
+    border-radius: 5px; /* Bordas arredondadas nos itens */
+}
+```
+
+### Resumo das Propriedades Úteis para o `<ol>`:
+- **`list-style-type`**: Define o estilo da numeração (`decimal`, `upper-roman`, `lower-alpha`, etc.).
+- **`list-style-position`**: Define a posição dos números (`inside` ou `outside`).
+- **`padding` e `margin`**: Controlam o espaçamento interno e externo da lista e dos itens.
+- **`background-color`**: Altera a cor de fundo da lista e dos itens.
+- **`border` e `border-radius`**: Adicionam bordas e bordas arredondadas.
+- **`hover`**: Define o comportamento dos itens ao passar o mouse.
+
+Esses exemplos mostram como você pode personalizar uma lista ordenada usando CSS para ajustar a aparência ao estilo do seu site.

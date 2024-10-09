@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+    height: 100%;
+
+}
+
+.png{
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+
+    background-color: black;
+    background-image: url('img/usar_imagem.png');
+    background-size: 100% auto;
+    background-position: center;
+    background-repeat: no-repeat;
+}

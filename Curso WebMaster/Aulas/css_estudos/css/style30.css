@@ -1,0 +1,111 @@
+/* Estilos gerais para todos os elementos */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* Configurações para html e body para ocupar 100% da tela */
+html,
+body {
+    height: 100%;
+}
+
+/* Estilos para o formulário principal */
+form {
+    width: 96%; /* Largura do formulário */
+    max-width: 600px; /* Largura máxima de 600px */
+    margin: 30px auto; /* Centraliza horizontalmente */
+    text-align: center; /* Centraliza o conteúdo */
+}
+
+/* Estilos para o título (h2) dentro do form */
+form h2 {
+    margin-top: 20px; /* Margem superior */
+    color: rgb(130, 130, 130); /* Cor cinza */
+}
+
+/* Estilos para o campo fieldset */
+form fieldset {
+    padding: 20px 40px; /* Espaçamento interno */
+    border: 3px solid #ccc; /* Borda cinza */
+}
+
+/* Estilos para o título de campo (legend) */
+form legend {
+    font-size: 17px; /* Tamanho da fonte */
+    color: grey; /* Cor cinza */
+    text-align: left; /* Alinha à esquerda */
+}
+
+/* Estilos para inputs de texto */
+form input[type=text] {
+    display: inline-block; /* Exibe em linha */
+    margin: 30px; /* Margem ao redor */
+    width: 80%; /* Largura de 80% */
+    padding: 10px 13px; /* Espaçamento interno */
+    border: 1px solid #ccc; /* Borda cinza */
+}
+
+/* Remove o outline dos campos ao focar */
+form input[type=text]:focus, form select:focus, form textarea:focus {
+    outline: 0;
+}
+
+/* Estilos para selects */
+form select {
+    font-family: tahoma; /* Fonte Tahoma */
+    width: calc(80% + 26px); /* Largura ajustada */
+    margin-top: 30px; /* Margem superior */
+    padding: 10px 13px; /* Espaçamento interno */
+    display: inline-block; /* Exibe em linha */
+    border: 1px solid #ccc; /* Borda cinza */
+}
+
+/* Cor vermelha para a terceira opção */
+form select option:nth-of-type(3) {
+    color: red;
+}
+
+/* Cor azul para opções desabilitadas */
+form select option[disabled] {
+    color: blue;
+}
+
+/* Estilos para elementos dentro da classe .input */
+.input {
+    display: inline-block; /* Exibe em linha */
+    text-align: left; /* Alinha à esquerda */
+    margin-top: 20px; /* Margem superior */
+}
+
+/* Estilos para spans dentro da classe .input */
+.input span {
+    margin-left: 13px; /* Margem à esquerda */
+    font-size: 16px; /* Tamanho da fonte */
+    color: rgb(130, 130, 130); /* Cor cinza */
+    text-align: center; /* Centraliza o texto */
+}
+
+/* Estilos para o botão de submit */
+form input[type=submit] {
+    margin-top: 30px; /* Margem superior */
+    border: 0; /* Remove a borda */
+    width: 140px; /* Largura */
+    height: 40px; /* Altura */
+    font-size: 16px; /* Tamanho da fonte */
+    border: 2px solid rgb(30, 14, 119); /* Borda colorida */
+    background-color: rgb(140, 140, 140); /* Cor de fundo */
+    cursor: pointer; /* Cursor de ponteiro */
+}
+
+/* Estilos para o textarea */
+form textarea {
+    font-family: tahoma; /* Fonte Tahoma */
+    display: inline-block; /* Exibe em linha */
+    margin: 30px; /* Margem */
+    width: 80%; /* Largura */
+    height: 140px; /* Altura */
+    padding: 10px 13px; /* Espaçamento interno */
+    border: 1px solid #ccc; /* Borda cinza */
+    resize: none; /* Desativa o redimensionamento */
+}

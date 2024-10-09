@@ -1,0 +1,40 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.Menu {
+    
+    margin: 0px auto;
+    padding: 20px 20px 40px 20px; /* Ajustada a ordem das propriedades de padding */
+    justify-content: space-between;
+    border-radius: 8px;    
+}
+
+.Menu > a{
+    display: inline-block;         /* Certifica que os links ocupam um bloco */
+    gap: 5px;
+    padding: 10px 20px;            /* Espaçamento interno (padding) para tornar o item mais clicável */
+    margin: 5px;                   /* Espaçamento externo (margin) para afastar os itens */
+    border: 2px solid white;     /* Define a cor e a espessura da borda */
+    border-radius: 8px;            /* Arredonda as bordas */
+    text-decoration: none;         /* Remove o sublinhado do link */
+    color: #fff;                   /* Define a cor do texto */
+    background-color: #2980b9;     /* Cor de fundo */
+    transition: all 0.3s ease;     /* Adiciona uma transição suav */
+}
+
+.Menu a.contato {
+    margin: auto;          /* Empurra o link de contato para a direita */
+    color: greenyellow;             /* Cor do texto para o link de contato */
+    text-align:left;            /* Centraliza o texto */
+}
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #e0eafc, #cfdef3); /* Fundo gradiente */
+    color: #333;
+    display: flex;
+    
+}

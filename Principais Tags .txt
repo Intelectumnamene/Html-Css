@@ -1,0 +1,70 @@
+As tags HTML evoluíram ao longo do tempo, desde a criação do HTML em 1991. Abaixo estão as principais tags HTML em ordem cronológica, com destaque para quando foram introduzidas e/ou modificadas em diferentes versões do HTML.
+
+### HTML 1.0 (1991)
+As primeiras versões do HTML foram muito simples, com poucas tags.
+
+1. `<html>` - Define o documento HTML.
+2. `<head>` - Cabeçalho do documento, contendo metadados.
+3. `<title>` - Título do documento.
+4. `<body>` - Corpo do documento.
+5. `<h1>` a `<h6>` - Títulos, de maior a menor importância.
+6. `<p>` - Parágrafo.
+7. `<a>` - Hiperlink.
+8. `<img>` - Imagem.
+9. `<br>` - Quebra de linha.
+10. `<hr>` - Linha horizontal.
+11. `<ul>`, `<ol>`, `<li>` - Listas não ordenadas, ordenadas, e itens de lista.
+12. `<b>`, `<i>` - Negrito e itálico.
+13. `<pre>` - Texto preformatado.
+14. `<blockquote>` - Citação em bloco.
+15. `<tt>` - Texto monoespaçado (teletipo).
+16. `<em>`, `<strong>` - Ênfase e forte ênfase (respectivamente).
+
+### HTML 2.0 (1995)
+HTML 2.0 formalizou muitos recursos já usados na prática e introduziu novos elementos.
+
+17. `<form>` - Formulários para entrada de dados.
+18. `<input>` - Campo de entrada de dados.
+19. `<textarea>` - Área de texto.
+20. `<button>` - Botão.
+21. `<select>`, `<option>` - Menu suspenso e opções.
+22. `<fieldset>`, `<legend>` - Conjuntos de campos e legenda.
+23. `<base>` - Define uma URL base para os links do documento.
+24. `<meta>` - Metadados.
+25. `<link>` - Conexões com recursos externos (como arquivos CSS).
+
+### HTML 3.2 (1997)
+Esta versão padronizou a exibição de gráficos e outros aspectos visuais.
+
+26. `<font>` - Definição de fontes (hoje obsoleta).
+27. `<center>` - Centralizar conteúdo (hoje obsoleta).
+28. `<table>`, `<tr>`, `<td>`, `<th>`, `<caption>` - Criação de tabelas e seus componentes.
+
+### HTML 4.0 (1997)
+HTML 4.0 trouxe grandes melhorias, como suporte a CSS e acessibilidade.
+
+29. `<div>` - Divisão de blocos.
+30. `<span>` - Container inline.
+31. `<iframe>` - Inserção de frames embutidos.
+32. `<abbr>`, `<acronym>` - Abreviações e acrônimos (o `<acronym>` foi removido no HTML5).
+33. `<style>` - Para definir CSS diretamente no documento.
+34. `<script>` - Inclusão de scripts como JavaScript.
+
+### XHTML (2000)
+Versão mais rigorosa do HTML, baseado em XML, com foco em boas práticas de sintaxe.
+
+### HTML5 (2014)
+O HTML5 é uma grande atualização que introduziu muitas novas tags para melhor estruturação semântica e recursos multimídia.
+
+35. `<header>`, `<footer>`, `<section>`, `<article>`, `<aside>`, `<nav>` - Estrutura semântica para diferentes partes do documento.
+36. `<figure>`, `<figcaption>` - Representa conteúdo gráfico com legendas.
+37. `<video>`, `<audio>` - Suporte nativo para vídeos e áudios.
+38. `<source>`, `<track>` - Fontes e faixas de mídias.
+39. `<canvas>` - Permite renderização de gráficos e animações via JavaScript.
+40. `<progress>`, `<meter>` - Indicadores de progresso e medição.
+41. `<time>`, `<mark>`, `<data>` - Elementos relacionados a tempo, marcação e dados.
+42. `<template>` - Conteúdo reutilizável que pode ser renderizado via JavaScript.
+43. `<main>` - Indica o conteúdo principal de um documento.
+44. `<details>`, `<summary>` - Para criar widgets de revelação de conteúdo.
+
+Com essas versões, o HTML se tornou uma linguagem muito mais poderosa, suportando uma ampla variedade de casos de uso, desde páginas simples até aplicações web complexas.

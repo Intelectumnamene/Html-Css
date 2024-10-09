@@ -1,0 +1,15 @@
+article {
+    border: 1px solid #ccc; /* Borda ao redor do artigo */
+    padding: 20px; /* Espaçamento interno */
+    margin: 20px 0; /* Margem entre os artigos */
+    border-radius: 5px; /* Bordas arredondadas */
+}
+
+h2 {
+    color: #007bff; /* Cor do título */
+}
+
+footer {
+    font-size: 0.9em; /* Tamanho da fonte do rodapé */
+    color: #555; /* Cor do texto do rodapé */
+}

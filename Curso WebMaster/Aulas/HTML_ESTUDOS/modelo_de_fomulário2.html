@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css_estudos/css/style31.css">
+    >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário Responsivo</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Formulário de Informações</legend>
+            
+            <div class="form-group">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" placeholder="Digite seu nome">
+            </div>
+            
+            <div class="form-group">
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" placeholder="Digite seu e-mail">
+            </div>
+            
+            <div class="form-group">
+                <label for="idade">Idade:</label>
+                <select id="idade" name="idade">
+                    <option disabled selected>Escolha sua idade</option>
+                    <option>20</option>
+                    <option>25+</option>
+                    <option>40+</option>
+                </select>
+            </div>
+            
+            <div class="form-group">
+                <h2>Qual sua cidade?</h2>
+                <div>
+                    <input type="radio" id="petropolis" name="cidade" value="Petrópolis">
+                    <label for="petropolis">Petrópolis</label>
+                </div>
+                <div>
+                    <input type="radio" id="sao_paulo" name="cidade" value="São Paulo">
+                    <label for="sao_paulo">São Paulo</label>
+                </div>
+                <div>
+                    <input type="radio" id="rio" name="cidade" value="Rio de Janeiro">
+                    <label for="rio">Rio de Janeiro</label>
+                </div>
+            </div>
+            
+            <div class="form-group">
+                <h2>O que você gosta de comer?</h2>
+                <div>
+                    <input type="checkbox" id="fruta" name="comida" value="Fruta">
+                    <label for="fruta">Fruta</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="fast_food" name="comida" value="Fast Food">
+                    <label for="fast_food">Fast Food</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="salada" name="comida" value="Salada">
+                    <label for="salada">Salada</label>
+                </div>
+            </div>
+
+            <button type="submit">Enviar</button>
+        </fieldset>
+    </form>
+</body>
+</html>

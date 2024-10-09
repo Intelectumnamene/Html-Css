@@ -1,0 +1,28 @@
+Aqui estão as configurações mais comuns que você pode usar para estilizar um elemento `<h1>` em CSS, com os nomes das propriedades CSS:
+
+### 1. **Estilo de Texto**:
+- **`color`**: Define a cor do texto.
+- **`font-size`**: Define o tamanho da fonte, normalmente maior que o texto padrão.
+- **`font-family`**: Especifica a família de fontes (como Arial, Times New Roman, etc.).
+- **`font-weight`**: Define o peso da fonte, geralmente "bold" (negrito) por padrão, mas pode ser ajustado.
+- **`font-style`**: Define o estilo da fonte, como normal ou itálico.
+- **`line-height`**: Controla o espaçamento entre as linhas de texto, útil se o título tiver várias linhas.
+- **`text-align`**: Alinha o texto dentro do `<h1>`, podendo ser à esquerda, direita, centralizado ou justificado.
+
+### 2. **Espaçamento**:
+- **`margin`**: Define o espaço externo ao redor do elemento `<h1>`, separando-o de outros elementos.
+- **`padding`**: Define o espaço interno entre o conteúdo do `<h1>` e suas bordas.
+
+### 3. **Fundo e Bordas**:
+- **`background-color`**: Define uma cor de fundo para o `<h1>`, fazendo-o se destacar mais.
+- **`border`**: Adiciona uma borda ao redor do `<h1>`, podendo ser de diferentes estilos, espessuras e cores.
+- **`border-radius`**: Arredonda os cantos da borda ao redor do `<h1>`.
+
+### 4. **Decoração e Transformação de Texto**:
+- **`text-decoration`**: Adiciona efeitos como sublinhado, riscado ou sobrelinha ao texto.
+- **`text-transform`**: Controla a transformação do texto, forçando o uso de maiúsculas, minúsculas, ou capitalizando a primeira letra de cada palavra.
+
+### 5. **Sombra de Texto**:
+- **`text-shadow`**: Aplica uma sombra ao texto, o que pode dar um efeito 3D ou melhorar a legibilidade.
+
+Essas são algumas das propriedades que você pode ajustar para personalizar seu `<h1>`, criando títulos estilizados que se destacam na página.

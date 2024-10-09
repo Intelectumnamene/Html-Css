@@ -1,0 +1,47 @@
+/* Estilo básico para o layout */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Cabeçalho */
+.header {
+    background-color: #333;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+/* Container principal */
+.container {
+    display: flex;
+    margin: 1em;
+}
+
+/* Conteúdo principal */
+.main-content {
+    flex: 3;
+    padding: 1em;
+}
+
+/* Barra lateral */
+.sidebar {
+    flex: 1;
+    padding: 1em;
+    background-color: #f4f4f4;
+    margin-left: 1em;
+}
+
+/* Rodapé */
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    margin-top: 1em;
+}

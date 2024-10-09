@@ -1,0 +1,111 @@
+Para estilizar o elemento `<legend>`, que é usado dentro de um `<fieldset>` para fornecer uma descrição do grupo de campos, você pode aplicar várias propriedades CSS. O estilo padrão do `<legend>` pode variar entre navegadores, por isso é uma boa ideia personalizá-lo para se alinhar ao design do seu site.
+
+Aqui estão algumas maneiras de estilizar o `<legend>`:
+
+### 1. **Estilo Básico**
+
+Você pode aplicar estilos básicos, como fonte, cor e espaçamento:
+
+```css
+legend {
+    font-size: 1.5em; /* Aumenta o tamanho da fonte */
+    color: #333; /* Define a cor do texto */
+    margin-bottom: 10px; /* Espaçamento abaixo do legend */
+    font-weight: bold; /* Define o texto como negrito */
+}
+```
+
+### 2. **Estilizando com Background e Bordas**
+
+Você também pode adicionar cor de fundo e bordas:
+
+```css
+legend {
+    font-size: 1.5em; /* Tamanho da fonte */
+    color: #fff; /* Cor do texto */
+    background-color: #007bff; /* Cor de fundo */
+    padding: 10px; /* Adiciona espaço interno */
+    border-radius: 5px; /* Bordas arredondadas */
+    border: 2px solid #0056b3; /* Borda sólida */
+}
+```
+
+### 3. **Centralizando o Texto**
+
+Se você quiser centralizar o texto dentro do `<legend>`:
+
+```css
+legend {
+    text-align: center; /* Centraliza o texto */
+    font-size: 1.5em; /* Tamanho da fonte */
+    margin-bottom: 10px; /* Espaçamento abaixo */
+}
+```
+
+### 4. **Usando Estilos em Tela Pequena**
+
+Você pode usar media queries para ajustar o estilo em telas menores:
+
+```css
+@media (max-width: 768px) {
+    legend {
+        font-size: 1.2em; /* Diminui o tamanho da fonte em telas pequenas */
+        text-align: left; /* Alinha o texto à esquerda */
+    }
+}
+```
+
+### 5. **Exemplo Completo**
+
+Aqui está um exemplo completo que combina várias estilizações:
+
+```html
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estilizando Legend</title>
+    <style>
+        fieldset {
+            border: 2px solid #007bff; /* Borda do fieldset */
+            border-radius: 10px; /* Bordas arredondadas do fieldset */
+            padding: 15px; /* Espaço interno do fieldset */
+            margin: 20px; /* Margem ao redor do fieldset */
+        }
+
+        legend {
+            font-size: 1.5em; /* Tamanho da fonte do legend */
+            color: #fff; /* Cor do texto do legend */
+            background-color: #007bff; /* Cor de fundo do legend */
+            padding: 10px; /* Espaço interno do legend */
+            border-radius: 5px; /* Bordas arredondadas do legend */
+            border: 2px solid #0056b3; /* Borda do legend */
+            text-align: center; /* Centraliza o texto do legend */
+        }
+
+        @media (max-width: 768px) {
+            legend {
+                font-size: 1.2em; /* Diminui o tamanho da fonte em telas pequenas */
+                text-align: left; /* Alinha o texto à esquerda em telas pequenas */
+            }
+        }
+    </style>
+</head>
+<body>
+
+<fieldset>
+    <legend>Informações do Usuário</legend>
+    <label for="name">Nome:</label>
+    <input type="text" id="name" name="name"><br><br>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email"><br><br>
+</fieldset>
+
+</body>
+</html>
+```
+
+### Conclusão
+
+Esses são alguns métodos para estilizar o elemento `<legend>`. Você pode personalizar ainda mais conforme o design do seu site e as necessidades do projeto. Se precisar de mais ajuda ou sugestões, fique à vontade para perguntar!
